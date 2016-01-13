@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
   def index
+  	render text: "Hello, this is an explicit call to controller action."
+  	return 
   end 
 
   def home
